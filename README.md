@@ -3,7 +3,7 @@
 This is a set of boilerplate scripts describing the [normalized script pattern
 that GitHub uses in its projects](http://githubengineering.com/scripts-to-rule-them-all/). While these
 patterns can work for projects based on any framework or language, these
-particular examples are for a simple Ruby on Rails application.
+particular examples are for a simple Laravel application.
 
 ## The Idea
 
@@ -34,7 +34,7 @@ The following is a list of scripts and their primary responsibilities.
 
 [`script/bootstrap`][bootstrap] is used solely for fulfilling dependencies of the project.
 
-This can mean RubyGems, npm packages, Homebrew packages, Ruby versions, Git submodules, etc.
+This can mean Composer packages, npm packages, Homebrew packages, Git submodules, etc.
 
 The goal is to make sure all required dependencies are installed.
 
