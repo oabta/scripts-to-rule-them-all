@@ -14,5 +14,4 @@ if [ ! -f .env ]; then
     php artisan key:generate
 fi
 
-npm install
 npm run build
